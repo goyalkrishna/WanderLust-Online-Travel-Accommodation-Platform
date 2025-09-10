@@ -4,7 +4,7 @@
   <h1>WanderLust 🌍</h1>
   
   <p>
-    <b>A full-stack Airbnb clone built with Node.js, Express, and MongoDB.</b>
+    <b>A full-stack Online Travel Accommodation Platform built with Node.js, Express, and MongoDB.</b>
   </p>
   <p>
     WanderLust is a feature-rich web application that allows users to discover, list, and book unique accommodations around the world. It provides a secure, intuitive, and responsive interface for both hosts and travelers, crafted with a robust MVC architecture.
@@ -17,28 +17,11 @@
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Badge">
     <img src="https://img.shields.io/badge/EJS-7E479C?style=for-the-badge" alt="EJS Badge">
 </p>
-   
-<h4>
-  
-    <span> · </span>
-    <a href="[YOUR_RENDER_LINK]">Live Demo</a>
-    <span> · </span>
-
-  </h4>
 
 </div>
 
 ---
 
-
-
-### 🎬 Application Preview
-
-Here is a quick walkthrough of WanderLust's core features:
-
-![WanderLust Demo GIF]([LINK_TO_YOUR_DEMO_GIF])
-
----
 
 ### ✨ Key Features
 
