@@ -1,48 +1,134 @@
-🌍 WanderLust – Online Travel Accommodation Platform
+<div align="center">
 
-WanderLust is a full-stack web application inspired by modern travel and accommodation platforms. It enables users to seamlessly explore, list, and book stays, while providing a secure and intuitive interface for both hosts and travelers.
+  <img src="[LINK_TO_YOUR_PROJECT_BANNER_IMAGE]" alt="WanderLust Banner">
 
-Built using the MVC (Model–View–Controller) architecture, WanderLust ensures modularity, scalability, and maintainability, making it a robust solution for real-world deployment.
+  <h1>WanderLust 🌍</h1>
+  
+  <p>
+    <b>A full-stack Airbnb clone built with Node.js, Express, and MongoDB.</b>
+  </p>
+  <p>
+    WanderLust is a feature-rich web application that allows users to discover, list, and book unique accommodations around the world. It provides a secure, intuitive, and responsive interface for both hosts and travelers, crafted with a robust MVC architecture.
+  </p>
 
-✨ Key Features
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js Badge">
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js Badge">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge">
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Badge">
+    <img src="https://img.shields.io/badge/EJS-7E479C?style=for-the-badge" alt="EJS Badge">
+</p>
+   
+<h4>
+    <a href="[YOUR_GITHUB_LINK]">View Code</a>
+    <span> · </span>
+    <a href="[YOUR_RENDER_LINK]">Live Demo</a>
+    <span> · </span>
+    <a href="[YOUR_GITHUB_LINK]/issues">Report Bug</a>
+  </h4>
 
-🏠 Property Listings – Add, edit, and manage accommodation details with images and descriptions.
+</div>
 
-📅 Bookings System – Secure booking workflow with availability tracking.
+---
 
-🔑 Authentication & Authorization – User registration, login, and role-based access control for hosts and guests.
+### 📍 Live Demo
 
-💬 User Reviews & Ratings – Share feedback and experiences to guide future travelers.
+Explore the live application deployed on Render:
+**[YOUR_RENDER_LINK]**
 
-🔍 Dynamic Search & Filters – Easily discover stays based on preferences like location, price, and availability.
+---
 
-📱 Responsive UI – Mobile-first design for a smooth browsing and booking experience across devices.
+### 🎬 Application Preview
 
-🛠️ Tech Stack
+Here is a quick walkthrough of WanderLust's core features:
 
-Frontend: EJS, Bootstrap, JavaScript
+![WanderLust Demo GIF]([LINK_TO_YOUR_DEMO_GIF])
 
-Backend: Node.js, Express.js
+---
 
-Database: MongoDB (Mongoose ODM)
+### ✨ Key Features
 
-Architecture: MVC (Model–View–Controller)
+* **Full CRUD Functionality**: Users can **C**reate, **R**ead, **U**pdate, and **D**elete property listings and reviews.
+* **Interactive Booking System**: A secure booking workflow with integrated availability tracking.
+* **Secure Authentication & Authorization**: Features robust user registration and login using Passport.js, with protected routes and session management.
+* **Community-Driven Reviews & Ratings**: Users can post reviews and ratings for properties, fostering a trusted community.
+* **Dynamic Search & Filtering**: Easily discover stays based on location, price, and other preferences.
+* **Responsive & Modern UI**: A mobile-first design built with Bootstrap ensures a seamless experience on any device.
+* **Cloud Image Storage**: Utilizes Cloudinary for efficient and scalable image uploads and storage.
 
-Tools: VS Code, Git, Render
+---
 
-🚀 Deployment
+### 🛠️ Tech Stack & Architecture
 
-The application is deployed on Render for live demonstration.
+WanderLust is built on the **MVC (Model-View-Controller)** architectural pattern to ensure a modular, scalable, and maintainable codebase.
 
-🔗 Live Demo: [Your Render Link Here]
-🔗 GitHub Repository: [Your GitHub Link Here]
+* **Frontend**: EJS, Bootstrap, JavaScript
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB with Mongoose ODM
+* **Authentication**: Passport.js (Local Strategy)
+* **File Storage**: Multer & Cloudinary
+* **Deployment**: Render
 
-📈 Future Enhancements
+---
 
-Integration of payment gateway for seamless online transactions.
+### 🚀 Getting Started
 
-Advanced map-based search with location tracking.
+To get a local copy up and running, follow these simple steps.
 
-Enhanced analytics dashboard for hosts to monitor bookings and earnings.
+#### Prerequisites
 
-⚡ With WanderLust, I aimed to replicate the essence of a scalable online travel platform, while applying strong fundamentals of full-stack development, clean architecture, and user experience design.
+Make sure you have Node.js and MongoDB installed on your machine.
+* **Node.js**: `https://nodejs.org/`
+* **MongoDB**: `https://www.mongodb.com/try/download/community`
+
+#### Installation
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [YOUR_GITHUB_LINK]
+    cd WanderLust
+    ```
+2.  **Install NPM packages:**
+    ```sh
+    npm install
+    ```
+3.  **Set up environment variables:**
+    Create a `.env` file in the root directory and add the following variables. You'll need to create a free Cloudinary account and a MongoDB Atlas cluster to get these keys.
+    ```env
+    MONGO_URL=<your_mongodb_connection_string>
+    CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloud_name>
+    CLOUDINARY_API_KEY=<your_cloudinary_api_key>
+    CLOUDINARY_API_SECRET=<your_cloudinary_api_secret>
+    SESSION_SECRET=<a_strong_secret_string>
+    ```
+
+4.  **Run the application:**
+    ```sh
+    npm start
+    ```
+    The application should now be running on `http://localhost:8080`.
+
+---
+
+### 📈 Roadmap: Future Enhancements
+
+Here are some features I plan to add to enhance the platform:
+
+* **💳 Payment Gateway Integration**: Incorporate Stripe or Razorpay for seamless and secure online transactions.
+* **🗺️ Map-Based Search**: Implement Mapbox or Google Maps API to allow users to search for properties visually on a map.
+* **📊 Host Dashboard**: Create an analytics dashboard for hosts to track bookings, earnings, and property performance.
+* **💬 Real-Time Chat**: Add a messaging feature for direct communication between hosts and guests.
+
+---
+
+### 👨‍💻 Connect with Me
+
+Your feedback and contributions are welcome!
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![GitHub][github-shield]][github-url]
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: [YOUR_LINKEDIN_URL]
+[github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=github&colorB=555
+[github-url]: [YOUR_GITHUB_PROFILE_URL]
