@@ -1,6 +1,5 @@
 <div align="center">
 
-  <img src="[LINK_TO_YOUR_PROJECT_BANNER_IMAGE]" alt="WanderLust Banner">
 
   <h1>WanderLust 🌍</h1>
   
@@ -20,23 +19,18 @@
 </p>
    
 <h4>
-    <a href="[YOUR_GITHUB_LINK]">View Code</a>
+  
     <span> · </span>
     <a href="[YOUR_RENDER_LINK]">Live Demo</a>
     <span> · </span>
-    <a href="[YOUR_GITHUB_LINK]/issues">Report Bug</a>
+
   </h4>
 
 </div>
 
 ---
 
-### 📍 Live Demo
 
-Explore the live application deployed on Render:
-**[YOUR_RENDER_LINK]**
-
----
 
 ### 🎬 Application Preview
 
@@ -121,14 +115,3 @@ Here are some features I plan to add to enhance the platform:
 
 ---
 
-### 👨‍💻 Connect with Me
-
-Your feedback and contributions are welcome!
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![GitHub][github-shield]][github-url]
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: [YOUR_LINKEDIN_URL]
-[github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=github&colorB=555
-[github-url]: [YOUR_GITHUB_PROFILE_URL]
